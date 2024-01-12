@@ -1,0 +1,150 @@
+{
+  "resources/sass/lucida-sans-typewriter.ttf": {
+    "file": "assets/lucida-sans-typewriter.10b3b891.ttf",
+    "src": "resources/sass/lucida-sans-typewriter.ttf"
+  },
+  "resources/sass/arlrdbd.ttf": {
+    "file": "assets/arlrdbd.d9352e7d.ttf",
+    "src": "resources/sass/arlrdbd.ttf"
+  },
+  "resources/js/app.js": {
+    "file": "assets/app.8dbef4a3.js",
+    "src": "resources/js/app.js",
+    "isEntry": true
+  },
+  "resources/js/custom.js": {
+    "file": "assets/custom.4c1b01b6.js",
+    "src": "resources/js/custom.js",
+    "isEntry": true
+  },
+  "resources/js/products.js": {
+    "file": "assets/products.017414b6.js",
+    "src": "resources/js/products.js",
+    "isEntry": true
+  },
+  "resources/views/dashboard/sass/vendor.scss": {
+    "file": "assets/vendor.f35241c3.css",
+    "src": "resources/views/dashboard/sass/vendor.scss",
+    "isEntry": true
+  },
+  "resources/views/dashboard/sass/payment.scss": {
+    "file": "assets/payment.f014548d.css",
+    "src": "resources/views/dashboard/sass/payment.scss",
+    "isEntry": true
+  },
+  "resources/views/dashboard/sass/variable.scss": {
+    "file": "assets/variable.0648aa37.css",
+    "src": "resources/views/dashboard/sass/variable.scss",
+    "isEntry": true
+  },
+  "resources/views/dashboard/sass/categories.scss": {
+    "file": "assets/categories.a7886b5b.css",
+    "src": "resources/views/dashboard/sass/categories.scss",
+    "isEntry": true
+  },
+  "resources/views/dashboard/sass/blogs.scss": {
+    "file": "assets/blogs.a397cc21.css",
+    "src": "resources/views/dashboard/sass/blogs.scss",
+    "isEntry": true
+  },
+  "resources/views/dashboard/sass/orders.scss": {
+    "file": "assets/orders.a8b617c1.css",
+    "src": "resources/views/dashboard/sass/orders.scss",
+    "isEntry": true
+  },
+  "resources/views/dashboard/sass/products.scss": {
+    "file": "assets/products.031e2057.css",
+    "src": "resources/views/dashboard/sass/products.scss",
+    "isEntry": true
+  },
+  "resources/sass/checkout.scss": {
+    "file": "assets/checkout.525584cd.css",
+    "src": "resources/sass/checkout.scss",
+    "isEntry": true
+  },
+  "resources/sass/services.scss": {
+    "file": "assets/services.4186cae8.css",
+    "src": "resources/sass/services.scss",
+    "isEntry": true
+  },
+  "resources/views/dashboard/sass/user.scss": {
+    "file": "assets/user.0533ac76.css",
+    "src": "resources/views/dashboard/sass/user.scss",
+    "isEntry": true
+  },
+  "resources/sass/_variables.scss": {
+    "file": "assets/_variables.63db4089.css",
+    "src": "resources/sass/_variables.scss",
+    "isEntry": true
+  },
+  "resources/views/dashboard/sass/app.scss": {
+    "file": "assets/app.83d33dfc.css",
+    "src": "resources/views/dashboard/sass/app.scss",
+    "isEntry": true
+  },
+  "resources/sass/appointment.scss": {
+    "file": "assets/appointment.9642cf59.css",
+    "src": "resources/sass/appointment.scss",
+    "isEntry": true
+  },
+  "resources/sass/privacy_policy.scss": {
+    "file": "assets/privacy_policy.776b0911.css",
+    "src": "resources/sass/privacy_policy.scss",
+    "isEntry": true
+  },
+  "resources/sass/account.scss": {
+    "file": "assets/account.7822dd33.css",
+    "src": "resources/sass/account.scss",
+    "isEntry": true
+  },
+  "resources/sass/blog.scss": {
+    "file": "assets/blog.da0e4f71.css",
+    "src": "resources/sass/blog.scss",
+    "isEntry": true
+  },
+  "resources/views/dashboard/sass/appointment.scss": {
+    "file": "assets/appointment.e6d46121.css",
+    "src": "resources/views/dashboard/sass/appointment.scss",
+    "isEntry": true
+  },
+  "resources/sass/about.scss": {
+    "file": "assets/about.7af2ff84.css",
+    "src": "resources/sass/about.scss",
+    "isEntry": true
+  },
+  "resources/views/dashboard/sass/subcategories.scss": {
+    "file": "assets/subcategories.839a8911.css",
+    "src": "resources/views/dashboard/sass/subcategories.scss",
+    "isEntry": true
+  },
+  "resources/sass/product.scss": {
+    "file": "assets/product.490e2029.css",
+    "src": "resources/sass/product.scss",
+    "isEntry": true
+  },
+  "resources/sass/home.scss": {
+    "file": "assets/home.7b8c1806.css",
+    "src": "resources/sass/home.scss",
+    "isEntry": true
+  },
+  "resources/sass/cart.scss": {
+    "file": "assets/cart.773c26c1.css",
+    "src": "resources/sass/cart.scss",
+    "isEntry": true
+  },
+  "resources/sass/shop.scss": {
+    "file": "assets/shop.f1c0ebd3.css",
+    "src": "resources/sass/shop.scss",
+    "isEntry": true
+  },
+  "resources/views/dashboard/sass/index.scss": {
+    "file": "assets/index.879a7c90.css",
+    "src": "resources/views/dashboard/sass/index.scss",
+    "isEntry": true
+  },
+  "resources/sass/app.scss": {
+    "file": "assets/app.209503de.css",
+    "src": "resources/sass/app.scss",
+    "isEntry": true
+  }
+}
