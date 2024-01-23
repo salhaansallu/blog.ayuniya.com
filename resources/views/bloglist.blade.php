@@ -23,7 +23,7 @@
             @foreach ($blogs as $blog)
                 <div class="blog">
                     <div class="img">
-                        <img src="{{ asset('blog_images/' . $blog->blog_image) }}" alt="">
+                        <img src="https://image.ayuniya.com/blog_images/{{ $blog->blog_image }}" alt="">
                     </div>
                     <div class="title">{{ $blog->blog_Title }}</div>
                     <div class="description">

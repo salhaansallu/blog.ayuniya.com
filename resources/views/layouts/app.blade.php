@@ -117,19 +117,20 @@
                 <p>Welcome to Ayuniya Store</p>
                 <div class="top_nav2">
                     <ul>
-                        <li><a class="" href="https://store.ayuniya.com/">Home</a></li>
-                        <li><a class="" href="#">Services</a>
+                        <li><a class="@if ($_SERVER['REQUEST_URI'] == '/') active @endif" href="https://store.ayuniya.com/">Home</a></li>
+                        <li><a class="@if ($_SERVER['REQUEST_URI'] == '/appointment') active @endif" href="#">Services</a>
                             <ul>
                                 <li><a href="https://store.ayuniya.com/services">Hospital Booking</a></li>
 
                             </ul>
                         </li>
-                        <li><a class="" href="https://store.ayuniya.com/shop">Shop</a></li>
-                        <li><a class="" href="https://store.ayuniya.com/about-us">About</a></li>
+                        <li><a class="@if ($_SERVER['REQUEST_URI'] == '/shop') active @endif" href="https://store.ayuniya.com/shop">Shop</a></li>
+                        <li><a class="@if ($_SERVER['REQUEST_URI'] == '/about-us') active @endif" href="https://store.ayuniya.com/about-us">About</a></li>
                         @guest
-                            <li><a class="" href="https://store.ayuniya.com/login">Login/Register</a></li>
+                            <li><a class="@if ($_SERVER['REQUEST_URI'] == '/login' || $_SERVER['REQUEST_URI'] == 'https://store.ayuniya.com/register') active @endif"
+                                    href="https://store.ayuniya.com/login">Login/Register</a></li>
                         @else
-                            <li><a class="" href="https://store.ayuniya.com/account">Account</a></li>
+                            <li><a class="@if ($_SERVER['REQUEST_URI'] == '/account') active @endif" href="https://store.ayuniya.com/account">Account</a></li>
                         @endguest
                     </ul>
                 </div>
@@ -164,12 +165,12 @@
                             </form>
                         </div>
 
-                        <div class="cart" onclick="location.href='/cart';">
-                            <p><i class="fa-solid fa-cart-shopping"></i> <span class="item_count" id="item_count">{{ getCartCount() }}</span></p>
+                        <div class="cart">
+                            <p><a href="https://store.ayuniya.com/cart"><i class="fa-solid fa-cart-shopping"></i></a></p>
                         </div>
                     </div>
                 </div>
-                <div class="left-category site-container">
+                {{-- <div class="left-category site-container">
                     <ul>
                         @foreach (getCategories() as $category)
                         <li>
@@ -184,7 +185,7 @@
                         </li>
                         @endforeach
                     </ul>
-                </div>
+                </div> --}}
             </div>
             <br>
             <div class="mobile_top_nav site-container">
@@ -214,20 +215,23 @@
                     </div>
                     <div class="items">
                         <ul>
-                            <li><a class="" href="https://store.ayuniya.com/">Home</a></li>
-                            <li><a class="" href="javascript:void(0)">Services</a>
+                            <li><a class="@if ($_SERVER['REQUEST_URI'] == '/') active @endif" class="active"
+                                    href="https://store.ayuniya.com/">Home</a></li>
+                            <li><a class="@if ($_SERVER['REQUEST_URI'] == '/appointment') active @endif" href="javascript:void(0)">Services</a>
                                 <ul>
                                     <li><a href="https://store.ayuniya.com/services">Hospital Booking</a></li>
                                 </ul>
                             </li>
-                            <li><a class="" href="https://store.ayuniya.com/shop">Shop</a>
+                            <li><a class="@if ($_SERVER['REQUEST_URI'] == '/shop') active @endif" href="https://store.ayuniya.com/shop">Shop</a>
                             </li>
-                            <li><a class="" href="https://store.ayuniya.com/about-us">About</a>
+                            <li><a class="@if ($_SERVER['REQUEST_URI'] == '/about-us') active @endif" href="https://store.ayuniya.com/about-us">About</a>
                             </li>
                             @guest
-                                <li><a class="" href="https://store.ayuniya.com/login">Login/Register</a></li>
+                                <li><a class="@if ($_SERVER['REQUEST_URI'] == '/login' || $_SERVER['REQUEST_URI'] == '/register') active @endif"
+                                        href="https://store.ayuniya.com/login">Login/Register</a></li>
                             @else
-                                <li><a class="" href="https://store.ayuniya.com/account">Account</a></li>
+                                <li><a class="@if ($_SERVER['REQUEST_URI'] == '/account') active @endif" href="https://store.ayuniya.com/account">Account</a>
+                                </li>
                             @endguest
                         </ul>
                     </div>

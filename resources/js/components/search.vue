@@ -12,7 +12,7 @@ export default {
     methods: {
         pc_search() {
             
-            location.href = "/search/"+this.search.replace(" ", '-');
+            location.href = "https://store.ayuniya.com/search/"+this.search.replace(" ", '-');
         }
     },
 }
