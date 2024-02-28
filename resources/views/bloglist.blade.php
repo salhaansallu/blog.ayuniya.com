@@ -27,7 +27,7 @@
                     </div>
                     <div class="title">{{ $blog->blog_Title }}</div>
                     <div class="description">
-                        {{ $blog->blog_dis }}
+                        {!! substr($blog->blog_dis, 0, 225) !!}...
                     </div>
                     <div class="readmore">
                         <a href="{{ route('blog.getBlog', $blog->id) }}" class="primary_btn">Read more</a>

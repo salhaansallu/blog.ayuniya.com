@@ -11,7 +11,7 @@
                     {{ $blog->blog_Title }}</h1>
                 </div>
                 <div class="description"><h4>
-                    <b>{{ $blog->blog_dis }}</b></h4>
+                    <b>{!! $blog->blog_dis !!}</b></h4>
                 </div>
             </div>
             <div class="content">
@@ -29,7 +29,7 @@
                         <div class="ctnt">
                             <div class="title">{{ $blog->blog_Title }}</div>
                             <div class="description">
-                                {{ $blog->blog_dis }}
+                                {!! substr($blog->blog_dis, 0, 146) !!}...
                             </div>
 
                             <div class="readmore">
@@ -39,11 +39,6 @@
                         </div>
                     </div>
                 @endforeach
-
-
-
-
-
             </div>
         </div>
     </div>
@@ -64,7 +59,7 @@
                         </div>
                         <div class="title">{{ $blog->blog_Title }}</div>
                         <div class="description">
-                            {{ $blog->blog_dis }}
+                            {!! substr($blog->blog_dis, 0, 225) !!}...
                         </div>
                         <div class="readmore">
                             <a href="{{ route('blog.getBlog', $blog->id) }}" class="primary_btn">Read more</a>
